@@ -89,3 +89,6 @@ imap <Esc>Ow 7
 imap <Esc>Ox 8
 imap <Esc>Oy 9
 imap <Esc>Oz 0
+
+"Pathogen
+call pathogen#infect()

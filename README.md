@@ -2,7 +2,12 @@ vimrc
 =====
 
 My vim setup
-- NERDTree: <Leader>p
+
+### Installed plugins:
+
+- Pathogen
+- NERDTree: `<Leader>p`
+- Snipmate
 
 
 ---
