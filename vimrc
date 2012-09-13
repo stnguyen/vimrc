@@ -6,16 +6,16 @@ syntax on           " syntax highlighing
 
 "Visual
 if has("gui_running")
-    " See ~/.gvimrc
-    set guifont=Monaco:h13  " use this font 
-    set lines=50       " height = 50 lines
-    set columns=100        " width = 100 columns
-    set background=light   " adapt colors for background
-    colorscheme desert    " use this color scheme
+  " See ~/.gvimrc
+  set guifont=Monaco:h13  " use this font 
+  set lines=50       " height = 50 lines
+  set columns=100        " width = 100 columns
+  colorscheme solarized    " use this color scheme
 else
-    colorscheme elflord    " use this color scheme
-    set background=dark        " adapt colors for background
+
+  colorscheme desert    " use this color scheme
 endif
+set background=dark
 
 " Keyboard mappings
 map <F1> :previous<CR>  " map F1 to open previous buffer
@@ -65,15 +65,15 @@ nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
 " Keyboard mapping for numeric keypad
 imap <Esc>OM <c-m>
- map <Esc>OM <c-m>
+map <Esc>OM <c-m>
 imap <Esc>OP <nop>
- map <Esc>OP <nop>
+map <Esc>OP <nop>
 imap <Esc>OQ /
- map <Esc>OQ /
+map <Esc>OQ /
 imap <Esc>OR *
- map <Esc>OR *
+map <Esc>OR *
 imap <Esc>OS -
- map <Esc>OS -
+map <Esc>OS -
 
 imap <Esc>Ol +
 imap <Esc>Om -
