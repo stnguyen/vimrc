@@ -8,7 +8,7 @@ My vim setup
 - Pathogen
 - NERDTree: `<Leader>p`
 - Snipmate
-
+- Rails.vim
 
 ---
 
