@@ -1,8 +1,13 @@
+"set nocompatible
+
+"Pathogen
+call pathogen#infect()
+
 "Filetype
+syntax on           " syntax highlighing
 set filetype=on
 filetype plugin on
 filetype indent on
-syntax on           " syntax highlighing
 
 "Visual
 if has("gui_running")
@@ -90,5 +95,5 @@ imap <Esc>Ox 8
 imap <Esc>Oy 9
 imap <Esc>Oz 0
 
-"Pathogen
-call pathogen#infect()
+"Clang complete
+"let g:clang_user_options='|| exit 0'

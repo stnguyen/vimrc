@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/pancake/.vim'
 let g:netrw_dirhist_2='/Users/pancake/tools/cocos2d-cocos2d-html5-cc98226/HelloHTML5World'
 let g:netrw_dirhist_3='/Users/pancake/.vim'
 let g:netrw_dirhist_4='/Volumes/WORKS/tracauvn-backend'
+let g:netrw_dirhist_5='/Volumes/WORKS/bubalus/tcvn-backend'
+let g:netrw_dirhist_6='/Volumes/WORKS/fuckingbirds-revamp/Classes'
