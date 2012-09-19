@@ -20,7 +20,7 @@ else
 
   colorscheme desert    " use this color scheme
 endif
-set background=dark
+set background=light
 
 " Keyboard mappings
 map <F1> :previous<CR>  " map F1 to open previous buffer
@@ -96,4 +96,12 @@ imap <Esc>Oy 9
 imap <Esc>Oz 0
 
 "Clang complete
-"let g:clang_user_options='|| exit 0'
+let g:clang_user_options='|| exit 0'
+
+"Look up from current directory until it finds "tags"
+set tags=./tags;/
+
+"Tagbar
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'  " Proper Ctags locations
+map <leader>ta :TagbarToggle<cr>
+map <leader>bta :!/usr/local/bin/ctags -R .<CR>
