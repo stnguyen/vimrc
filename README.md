@@ -14,6 +14,7 @@ My vim setup
 - Tagbar
 - Surround.vim
 - NercCommenter
+- AutoClose
 
 ### Install ctags 5.8
 
