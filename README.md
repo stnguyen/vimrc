@@ -13,6 +13,7 @@ My vim setup
 - Syntastic
 - Tagbar
 - Surround.vim
+- NercCommenter
 
 ### Install ctags 5.8
 
