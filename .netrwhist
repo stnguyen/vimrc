@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/pancake/.vim'
-let g:netrw_dirhist_2='/Users/pancake/tools/cocos2d-cocos2d-html5-cc98226/HelloHTML5World'
-let g:netrw_dirhist_3='/Users/pancake/.vim'
-let g:netrw_dirhist_4='/Volumes/WORKS/tracauvn-backend'
-let g:netrw_dirhist_5='/Volumes/WORKS/bubalus/tcvn-backend'
-let g:netrw_dirhist_6='/Volumes/WORKS/fuckingbirds-revamp/Classes'
-let g:netrw_dirhist_7='/Users/pancake/works/godfinger/gods_rage_with_map_editor/god-s-rage/Classes'
-let g:netrw_dirhist_8='/Users/pancake/works/godfinger/gods_rage_with_map_editor/god-s-rage'
-let g:netrw_dirhist_9='/Users/pancake/works/godfinger/gods_rage_with_map_editor/god-s-rage/Classes'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/pancake/works/godfinger/gods_rage_with_map_editor/god-s-rage'
