@@ -105,3 +105,6 @@ set tags=./tags;/
 let g:tagbar_ctags_bin='/usr/local/bin/ctags'  " Proper Ctags locations
 map <leader>ta :TagbarToggle<cr>
 map <leader>bta :!/usr/local/bin/ctags -R .<CR>
+
+" No ESC delay
+set timeoutlen=1000 ttimeoutlen=0
