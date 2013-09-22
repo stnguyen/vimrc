@@ -34,3 +34,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git@github.com:kien/ctrlp.vim.git
+[submodule "bundle/rspec"]
+	path = bundle/rspec
+	url = git@github.com:thoughtbot/vim-rspec.git
