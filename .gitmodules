@@ -31,3 +31,6 @@
 [submodule "bundle/yardoc"]
 	path = bundle/yardoc
 	url = git@github.com:noprompt/vim-yardoc.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
