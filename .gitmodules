@@ -37,3 +37,9 @@
 [submodule "bundle/rspec"]
 	path = bundle/rspec
 	url = git@github.com:thoughtbot/vim-rspec.git
+[submodule "bundle/camelcasemotion"]
+	path = bundle/camelcasemotion
+	url = git@github.com:vim-scripts/camelcasemotion.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git@github.com:ervandew/supertab.git

@@ -102,9 +102,15 @@ let g:clang_user_options='|| exit 0'
 set tags=./tags;/
 
 "Tagbar
-let g:tagbar_ctags_bin='/usr/local/bin/ctags'  " Proper Ctags locations
+let g:tagbar_ctags_bin='~/.rvm/bin/ctags'  " Proper Ctags locations
 map <leader>ta :TagbarToggle<cr>
-map <leader>bta :!/usr/local/bin/ctags -R .<CR>
+map <leader>bta :!~/.rvm/bin/ctags -R .<CR>
 
 " No ESC delay
 set timeoutlen=1000 ttimeoutlen=0
+
+" Rspec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>

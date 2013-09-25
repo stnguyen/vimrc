@@ -1,10 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/pancake/works/godfinger/gods_rage_with_map_editor/god-s-rage'
-let g:netrw_dirhist_2='/Users/stefannguyen/tools/cocos2d-2.0-x-2.0.4/ultimate_arrow/Classes'
-let g:netrw_dirhist_3='/Users/stefannguyen/tools/cocos2d-2.0-x-2.0.2/ultimate/Classes'
-let g:netrw_dirhist_4='/Users/stefannguyen/tools/cocos2d-2.0-rc2-x-2.0.1/ultimatearrow/Classes'
-let g:netrw_dirhist_5='/Users/stefannguyen/tools/cocos2d-2.0-x-2.0.4/ultimate_arrow/Classes'
-let g:netrw_dirhist_6='/Volumes/WORKS/angular-phonecat'
-let g:netrw_dirhist_7='/Users/stefan/.vim'
-let g:netrw_dirhist_8='/Users/stefan/works/Artemis-Ruby'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/stefan/works/ua-motion'
+let g:netrw_dirhist_2='/Users/stefan/works/Artemis-Ruby'
+let g:netrw_dirhist_3='/Users/stefan/works/ua-motion'
+let g:netrw_dirhist_4='/Users/stefan/works/Artemis-Ruby'
