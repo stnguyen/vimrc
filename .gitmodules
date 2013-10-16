@@ -43,3 +43,18 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "bundle/matchit"]
+	path = bundle/matchit
+	url = git@github.com:tmhedberg/matchit.git
+[submodule "bundle/easymotion"]
+	path = bundle/easymotion
+	url = git@github.com:Lokaltog/vim-easymotion.git
+[submodule "bundle/vim-rvm"]
+	path = bundle/vim-rvm
+	url = git://github.com/tpope/vim-rvm.git
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = git@github.com:elzr/vim-json.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git

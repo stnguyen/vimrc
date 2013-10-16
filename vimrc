@@ -100,6 +100,7 @@ let g:clang_user_options='|| exit 0'
 
 "Look up from current directory until it finds "tags"
 set tags=./tags;/
+set tags+=gems.tags
 
 "Tagbar
 let g:tagbar_ctags_bin='~/.rvm/bin/ctags'  " Proper Ctags locations
