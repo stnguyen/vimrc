@@ -12,7 +12,7 @@ if dein#load_state("~/.vim/bundles/repos")
     call dein#add('junegunn/gv.vim')
     call dein#add('NLKNguyen/papercolor-theme')
     call dein#add('majutsushi/tagbar')
-    " call dein#add('vim-syntastic/syntastic')
+    call dein#add('vim-syntastic/syntastic')
     call dein#add('tpope/vim-surround')
     call dein#add('itchyny/lightline.vim')
     call dein#add('ap/vim-buftabline')
@@ -73,14 +73,14 @@ set foldcolumn=2
 set nowrap
 
 " Syntastic
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-"let g:syntastic_check_on_wq = 0
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
@@ -114,7 +114,8 @@ let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 " Default color scheme & font
-set t_Co=256   " This is may or may not needed.
+" set t_Co=256   " This is may or may not needed.
+set termguicolors
 set background=dark
 colorscheme dracula
 
