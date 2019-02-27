@@ -1,26 +1,5 @@
 vimrc
 =====
 
-My vim setup
+My simple vim setup. I use [vimrc](http://vimr.org/) to run it smoothly in Mac OSX
 
-### Installed plugins:
-
-- Pathogen
-- NERDTree: `<Leader>p`
-- Snipmate
-- Rails.vim
-- Clang\_complete
-- Syntastic
-- Tagbar
-- Surround.vim
-- NercCommenter
-- AutoClose
-
-### Install ctags 5.8
-
-1. Download at http://ctags.sourceforge.net/
-2. `./configure && make && sudo make install`
-
----
-
-Stefan Nguyen
