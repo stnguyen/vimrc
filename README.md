@@ -37,3 +37,9 @@ Run inside vim/nvim:
 :call dein#install()
 ```
 
+# Install python3 support
+
+```
+brew install python3
+pip3 install neovim --upgrade
+```
