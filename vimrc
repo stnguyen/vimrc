@@ -39,7 +39,6 @@ if dein#load_state("~/.vim/bundles/repos")
     call dein#add('tpope/vim-dispatch')
     call dein#add('tomlion/vim-solidity')
     call dein#add('moll/vim-node')
-    call dein#add('dmdque/solidity.vim')
 
     call dein#add('Shougo/deoplete.nvim')
     if !has('nvim')
@@ -85,11 +84,12 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_mode_map = {
-    \ "mode": "passive",
-    \ "active_filetypes": ["lua"],
-    \ "passive_filetypes": [] }
+let g:syntastic_check_on_wq = 1
+" let g:syntastic_mode_map = {
+"     \ "mode": "passive",
+"     \ "active_filetypes": ["lua"],
+"     \ "passive_filetypes": [] }
+let g:syntastic_solidity_checkers = ['solium']
 
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
@@ -242,9 +242,3 @@ nnoremap <Leader>sp :OmniSharpStopServer<CR>
 set wrap
 set linebreak
 set nolist  " list disables linebreak
-
-" Solidity truffle compile
-augroup quickfix
-  autocmd!
-  autocmd QuickFixCmdPost make nested copen
-augroup END
