@@ -1,7 +1,9 @@
+let g:python3_host_prog = '/usr/local/bin/python3'
+
 if &compatible
     set nocompatible
 endif
-set runtimepath+=~/.vim/bundles/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
 if dein#load_state("~/.vim/bundles/repos")
     call dein#begin("~/.vim/bundles/repos")
@@ -35,6 +37,9 @@ if dein#load_state("~/.vim/bundles/repos")
     call dein#add('scrooloose/nerdtree')
     call dein#add('OmniSharp/omnisharp-vim')
     call dein#add('tpope/vim-dispatch')
+    call dein#add('tomlion/vim-solidity')
+    call dein#add('moll/vim-node')
+    call dein#add('dmdque/solidity.vim')
 
     call dein#add('Shougo/deoplete.nvim')
     if !has('nvim')
@@ -60,7 +65,7 @@ set shiftwidth=4
 set expandtab
 syntax enable
 
-let g:nerdtree_tabs_open_on_console_startup=0
+let g:nerdtree_tabs_open_on_console_startup=1
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.png     " Linux/MacOSX
 
@@ -71,9 +76,6 @@ set number
 
 " VIM set some padding between the gutter and text
 set foldcolumn=2
-
-" VIM set no wrap
-set nowrap
 
 " Syntastic
 set statusline+=%#warningmsg#
@@ -234,3 +236,15 @@ nnoremap <Leader>sp :OmniSharpStopServer<CR>
 
 " Enable snippet completion
 " let g:OmniSharp_want_snippet=1
+"
+"
+" line wrap
+set wrap
+set linebreak
+set nolist  " list disables linebreak
+
+" Solidity truffle compile
+augroup quickfix
+  autocmd!
+  autocmd QuickFixCmdPost make nested copen
+augroup END
